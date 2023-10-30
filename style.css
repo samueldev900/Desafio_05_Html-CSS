@@ -44,7 +44,7 @@ main p{
     height: 270px;
     width: 270px;
     border-radius: 10px;
-    background: url(../images/image-equilibrium.jpg) no-repeat;
+    background: url(images/image-equilibrium.jpg) no-repeat;
     background-size: contain;
 }
 .overlay {
