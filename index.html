@@ -5,29 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="estilos/style.css">
+  <link rel="stylesheet" href="estilos/query.css">
   
   <title>Frontend Mentor | NFT preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
 
-  Equilibrium #3429
+  <main>
+    <article class="image-container"><!--Hover image effect-->
 
-  Our Equilibrium collection promotes balance and calm.
+      <div class="picture-img">
+        <!--image inside-->
+      </div>
 
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
+      <div class="overlay">
+        <img src="images/icon-view.svg" alt="icon-view">
+      </div>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    </article>
+
+    <div class="second-content">
+      <h1 class="blue">Equilibrium #3429</h1>
+      <p>
+        Our Equilibrium collection promotes balance and calm.
+      </p>
+      <div class="etheruim-clock">
+        <span id="etherum" class="icons">
+          <img src="images/icon-ethereum.svg" alt="icon-etherium">
+          <p>0.041 ETH</p>
+        </span>
+
+        <span class="icons2">
+          <img src="images/icon-clock.svg" alt="icon-clock">
+          <p >3 days left</p>
+        </span>
+      </div>
+
+
+      <hr><!--row-division-->
+
+      <div class="img-footer">
+        <img class="avatar-img" src="images/image-avatar.png" alt="avatar-icon">
+        <p class="txt-persona">Creation of<span class="blue"> Jules Wyvern</span></p>
+      </div>
+      
+    </div>
+
+
+  </main>
+
+  <footer class="attribution">
+
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/samueldev900">Samuel Oliveira</a>.
+
+  </footer>
 </body>
 </html>
